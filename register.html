@@ -3,16 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
     <title>Register</title>
     <style>
-
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        section {
+            height: 100vh;
+            display: flex;
+        }
+        section div.bg-image {
+            width: 24.21%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(file/register.png);
+        }
+        div.kanan {
+            width: 60.78%;
+            padding: 61px 130px 142px 70px
+        }
+        .icon-coffee {
+            display: flex;
+            align-items: center;
+        }
+        .size-coffe-icon {
+            width: 32px;
+            height: 32px;
+            margin-right: 14px;
+        }
+        .coffee1 {
+            color: #8E6447;
+            font-family: Sacramento;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .text-register {
+            color: #8E6447;
+            font-family: Plus Jakarta Sans;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .text-fill {
+            color: #4F5665;
+            /* reg 16px */
+            font-family: Plus Jakarta Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 25px;
+        }
+        .label-name {
+            color: #0B132A;
+            font-family: Plus Jakarta Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin-top: 25px;
+            margin-bottom: 13px;
+        }
+        .form-input {
+            display: flex;
+            flex-direction: column;
+        }
+        .input-data {
+            padding-left: 50px !important;
+            width: -webkit-fill-available;
+            display: flex;
+            padding: 14px 13px;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+            border-radius: 8px;
+            border: 1px solid var(--Border-and-Line, #DEDEDE);
+            background: #FCFDFE;
+        }
+        .icon-input-size {
+            object-fit: contain;
+            display: flex;
+            width: 24px;
+            height: 24px;
+            padding: 2.814px 4.846px 2.78px 4.814px;
+            justify-content: center;
+            align-items: center;
+        }
+        .input-icon {
+            position: relative;
+        }
+        .input-icon img {
+            position: absolute;
+            left: 6px;
+            top: 6px;
+        }
+        .tombol {
+            width: 100%;
+            margin-top: 30px;
+            display: flex;
+            height: 50px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+            border-radius: 6px;
+            background-color: #FF8906;
+        }
     </style>
 </head>
 
 <body>
-    <nav></nav>
     <section>
-        
+        <div class="bg-image"></div>
+        <div class="kanan">
+            <div class="icon-coffee">
+                <img class="size-coffe-icon" src="/file/coffee.png" alt="Icon Caffee" srcset="">
+                <p class="coffee1">Gebs Coffee Shop</p>
+            </div>
+            <div>
+                <p class="text-register">Register</p>
+                <p class="text-fill">Fill out the form correctly</p>
+            </div>
+            <div>
+                <form class="form-input" action="">
+                    <label class="label-name" for="">Full Name</label>
+                    <div class="input-icon">
+                        <input class="input-data" type="text" name="full-name" placeholder="Enter Your Full Name" id="full-name">
+                        <img class="icon-input-size" src="/file/profile.png" alt="">
+                    </div>
+                    <label class="label-name" for="">Full Name</label>
+                    <div class="input-icon">
+                        <input class="input-data" type="text" name="full-name" placeholder="Enter Your Full Name" id="full-name">
+                        <img class="icon-input-size" src="/file/profile.png" alt="">
+                    </div>
+                    <label class="label-name" for="">Full Name</label>
+                    <div class="input-icon">
+                        <input class="input-data" type="text" name="full-name" placeholder="Enter Your Full Name" id="full-name">
+                        <img class="icon-input-size" src="/file/profile.png" alt="">
+                    </div>
+                    <label class="label-name" for="">Full Name</label>
+                    <div class="input-icon">
+                        <input class="input-data" type="text" name="full-name" placeholder="Enter Your Full Name" id="full-name">
+                        <img class="icon-input-size" src="/file/profile.png" alt="">
+                    </div>
+                    <button class="tombol">Register</button>
+                </form>
+            </div>
+            <div></div>
+        </div>
     </section>
 </body>
 </html>
