@@ -18,16 +18,19 @@ section div.bg-image-login {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(file/register.png);
+    background-image: url(file/login.png);
 }
 section div.bg-image-forgot {
     width: 24.21%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(file/register.png);
+    background-image: url(file/forgot.png);
 }
 div.kanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 60.78%;
     padding: 20px 130px 20px 70px
 }
