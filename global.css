@@ -61,8 +61,16 @@ body {
     margin-right: 10px;
 }
 .my-sm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my-md {
     margin-top: 87px;
     margin-bottom: 87px;
+}
+.my-xl {
+    margin-top: 300px;
+    margin-bottom: 150px;
 }
 .my-xs {
     margin-top: 59px;
@@ -70,6 +78,9 @@ body {
 }
 .ms-sm {
     margin-left: 10px;
+}
+.ms-md {
+    margin-left: 40%;
 }
 
 
@@ -153,9 +164,22 @@ body {
     color: white;
     background-color: #d00000;
 }
+.btn-pagination1 {
+    padding: 10px;
+    border-radius: 24px;
+    border: unset;
+    background-color: #FF8906;
+}
+.btn-pagination2 {
+    padding: 10px;
+    border-radius: 24px;
+    border: unset;
+    background-color: #E8E8E8;
+}
 .bg-white {
     background-color: white;
 }
+
 
 
 
@@ -202,6 +226,9 @@ body {
 }
 .text-grey {
     color: #4f5665;
+}
+.text-black {
+    color: #0B0909;
 }
 .text-brown {
     color: #8E6447;
