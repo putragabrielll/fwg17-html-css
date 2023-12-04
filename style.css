@@ -27,6 +27,20 @@ section div.bg-image-forgot {
     background-size: cover;
     background-image: url(file/forgot.png);
 }
+
+@media screen and (max-width: 499px) {
+    section div.bg-image-login {
+        display: none;
+    }
+    section div.bg-image-register {
+        display: none;
+    }
+    section div.bg-image-forgot {
+        display: none;
+    }
+}
+
+
 div.kanan {
     display: flex;
     flex-direction: column;
@@ -105,6 +119,9 @@ div.kanan {
     justify-content: center;
     align-items: center;
 }
+.m-auto {
+    margin-left: auto;
+}
 .input-icon {
     position: relative;
 }
@@ -153,6 +170,7 @@ div.kanan {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
 }
 .social-login {
     margin-top: 10px;
