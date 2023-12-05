@@ -7,8 +7,18 @@ body {
 .container {
     padding: 5px 130px;
 }
+.container-l {
+    padding-left: 130px;
+    padding-right: 150px;
+}
+.container-r {
+    padding-right: 130px;
+}
 .col-3 {
     width: 33.33%;
+}
+.col-25 {
+    width: 25%;
 }
 .col-1-footer {
     width: 30%;
@@ -19,8 +29,14 @@ body {
 .col-70 {
     width: 70%;
 }
+.col-50 {
+    width: 50%;
+}
 .col-30 {
     width: 30%;
+}
+.vh-100 {
+    height: 100vh;
 }
 
 
@@ -90,6 +106,15 @@ body {
     background-color: #0b0909;
     display: flex;
     align-items: center;
+}
+.nav-trans {
+    background-color: rgba(11, 9, 9, 0.13);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.min-h {
+    margin-top: -65px;
 }
 .logo {
     display: flex;
@@ -167,9 +192,20 @@ body {
 .ms-sm-5 {
     margin-left: 5px;
 }
+.ms-sm-15 {
+    margin-left: 15px;
+}
 .my-0 {
     margin-top: 10px;
     margin-bottom: 0;
+}
+.my-b-0 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.my-b-300 {
+    margin-top: 0;
+    margin-bottom: 300px;
 }
 .margin-0 {
     margin-top: 0;
@@ -224,6 +260,19 @@ body {
 .border {
     border: 1px solid #E8E8E8;
 }
+.br-1 {
+    border-right: 1px solid white;
+}
+.br-2 {
+    border-left: 8px solid #FF8906;
+    width: 7px;
+    height: 68px;
+    
+}
+.br-3 {
+    border-bottom: 8px solid #FF8906;
+    width: 100px;
+}
 
 
 
@@ -262,6 +311,14 @@ body {
     background-color: #ff8906;
     border: 1px solid #ff8906;
     padding: 6px 90px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.warna3-md {
+    color: #0b132a;
+    background-color: #ff8906;
+    border: 1px solid #ff8906;
+    padding: 6px 49px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -355,11 +412,20 @@ body {
 .text-black {
     color: #0B0909;
 }
+.text-white {
+    color: white;
+}
 .text-brown {
     color: #8E6447;
 }
 .text-grey1 {
     color: #AFB5C0;
+}
+.text-donker {
+    color: #0B132A;
+}
+.fs-48 {
+    font-size: 48px;
 }
 
 
@@ -387,6 +453,10 @@ body {
     bottom: -45%;
     right: 17.5px;
 }
+.pills-2 {
+    bottom: -75%;
+    right: 31px;
+}
 .image1 {
     height: 170px;
 }
@@ -412,6 +482,9 @@ body {
 }
 .bg-white {
     background-color: white;
+}
+.bg-gradien {
+    background-image: linear-gradient(168deg, #777C82 -114.74%, #0B0909 91.35%);
 }
 
 
