@@ -32,6 +32,10 @@ section div.bg-image-forgot {
     section div.bg-image-login {
         display: none;
     }
+    div.kanan {
+        width: 100% !important;
+        padding: 20px !important;
+    }
     section div.bg-image-register {
         display: none;
     }
