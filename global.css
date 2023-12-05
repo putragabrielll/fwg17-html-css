@@ -16,6 +16,67 @@ body {
 .col-2-footer {
     width: 20%;
 }
+.col-70 {
+    width: 70%;
+}
+.col-30 {
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+/* Display */
+.j-content-center {
+    display: flex;
+    justify-content: center;
+}
+.j-content-between {
+    display: flex;
+    justify-content: space-between;
+}
+.a-item-center {
+    display: flex;
+    align-items: center;
+}
+.d-flex {
+    display: flex;
+}
+.d-flex-1 {
+    flex: 1;
+}
+.d-flex-column {
+    flex-direction: column;
+}
+.d-width {
+    width: 50%;
+}
+.d-width-60 {
+    width: 60%;
+}
+.d-width-40 {
+    width: 40%;
+}
+.d-width-35 {
+    width: 35%;
+}
+.d-width-20 {
+    width: 20%;
+}
+.d-width-5 {
+    width: 5%;
+}
+.gap {
+    gap: 20px;
+}
+.gap-5 {
+    gap: 5px;
+}
 
 
 
@@ -84,6 +145,10 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.my-sm-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .my-md {
     margin-top: 87px;
     margin-bottom: 87px;
@@ -98,6 +163,9 @@ body {
 }
 .ms-sm {
     margin-left: 10px;
+}
+.ms-sm-5 {
+    margin-left: 5px;
 }
 .my-0 {
     margin-top: 10px;
@@ -116,6 +184,9 @@ body {
 
 
 /* Padding */
+.padding {
+    padding: 10px 10px;
+}
 .px-sm {
     padding-left: 20px;
     padding-right: 30px;
@@ -249,50 +320,6 @@ body {
 
 
 
-/* Display */
-.j-content-center {
-    display: flex;
-    justify-content: center;
-}
-.j-content-between {
-    display: flex;
-    justify-content: space-between;
-}
-.a-item-center {
-    display: flex;
-    align-items: center;
-}
-.d-flex {
-    display: flex;
-}
-.d-flex-column {
-    flex-direction: column;
-}
-.d-width {
-    width: 50%;
-}
-.d-width-60 {
-    width: 60%;
-}
-.d-width-40 {
-    width: 40%;
-}
-.d-width-35 {
-    width: 35%;
-}
-.d-width-5 {
-    width: 5%;
-}
-.gap {
-    gap: 20px;
-}
-
-
-
-
-
-
-
 
 /* Text */
 .text-promo {
@@ -302,6 +329,22 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.text-progres {
+    color: #FF8906;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.hasil {
+    border-radius: 24px;
+    background: rgba(255, 137, 6, 0.20);
+}
+.link-decoration {
+    cursor: pointer;
+    color: #FF8906;
+    text-decoration: none;
 }
 .text-orange {
     color: #ff8906;
@@ -343,6 +386,14 @@ body {
 .pills-1 {
     bottom: -45%;
     right: 17.5px;
+}
+.image1 {
+    width: 178px;
+    height: 170px;
+}
+.image2 {
+    width: 111px;
+    height: 105px;
 }
 
 
